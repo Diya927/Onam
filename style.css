@@ -1,0 +1,40 @@
+body {
+        font-family: Arial, sans-serif;
+            background-color: white;
+            }
+              .onamposter {
+                width: 600px;
+                height: 400px;
+                background-image: url("back.jpg");
+                border: 1px solid #ddd;
+                margin: 40px auto;
+                padding: 20px;
+                }
+
+               h1{
+                font-size: 36px;
+                color: yellow;
+                text-align: center;
+                margin-bottom: 19px;
+                }
+
+                .descriptn {
+                 font-size: 20px;
+                 color: #666;
+                 text-align: center;
+                 margin-bottom: 15px;
+                 }
+
+                .oimg {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                }
+
+                .oimg img {
+                 width: 240px;
+                 height: 180px;
+                 object-fit: cover;
+                 border-radius: 10px;
+                 }
+}
